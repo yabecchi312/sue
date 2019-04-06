@@ -1,0 +1,63 @@
+/* 一覧表示するテーブル*/
+.show_all_table {
+	text-align: center;
+	width: 100%;
+}
+
+.show_all_table table {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 85%;
+	height: 75%;
+	border: medium solid #008080;
+	border-collapse: collapse;
+}
+
+.show_all_table table .top_table{
+	border: 3px solid #008080;
+	border-collapse: collapse;
+	font-weight: bold;
+}
+
+.show_all_table table .main_table td {
+	border: 1px solid #008080;
+	border-collapse: collapse;
+}
+
+.employee_button {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.employee_button input {
+	width: 20%;
+	cursor: pointer;
+}
+
+.edit_button {
+	margin-right: 10px;
+}
+
+.link_main_button {
+	text-align: center;
+}
+
+.display_button {
+	width: 33%;
+	margin-bottom: 50px;
+}
+
+#comment_show_all {
+	font-size: 12px;
+	color: red;
+	text-align: center;
+	display: none;
+}
+
+#comment_error {
+	font-size: 12px;
+	color: red;
+	text-align: center;
+	display: none;
+}

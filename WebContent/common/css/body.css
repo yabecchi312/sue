@@ -1,0 +1,32 @@
+/*ボディ　背景*/
+
+body {
+	/*background-color: f0f8ff;*/
+	background-image: url("../image/background.jpeg");
+	background-size: 100%;
+	min-height: 100vh;
+}
+
+.main_frame {
+  height: 70px;
+  position: relative;
+  color: #0000a0;
+  font-size: 22px;
+  padding: 1px;
+  text-align: center;
+  margin: 0.01em 0;
+}
+.main_frame:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  width: 150px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid #3366FF;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

@@ -1,0 +1,87 @@
+
+/* timesheetの余白*/
+.margin_r {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.display_top {
+	height: 190px;
+	width: 100%;
+	text-align: center;
+	padding-top: 18px;
+}
+
+.display_top p {
+	margin:0 auto;
+}
+
+
+.attendance_form {
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.attendance_form .attendance_timecard {
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+
+}
+
+
+.attendance_form .attendance_timecard2 {
+	text-align: center;
+	width: 20%;
+}
+
+.attendance_select_timesheet {
+	cursor: pointer;
+
+}
+
+/*view_timesheet */
+
+.name_format {
+	width: 88%;
+	font-size: 20px;
+	margin-left: 60px;
+	padding-left: 30px;
+	padding-bottom: 2px;
+	border-left: solid 5px #008080;
+	border-bottom: solid 1.3px gray;
+}
+
+.edit_top {
+	padding-top: 20px;
+}
+
+.signature_form {
+	float: right;
+	padding: 10px;
+	padding-right: 100px;
+}
+
+.link_button {
+	text-align: center;
+	padding-top: 70px;
+	margin-left: 100px;
+}
+/*ログアウト*/
+.attendance_logout_button {
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*現在時刻*/
+.display_top #RealtimeClockArea {
+	font-size: 100px;
+	text-align: center;
+}
+
+/*日付*/
+.display_top #today_area {
+	font-size: 30px;
+	text-align: center;
+}

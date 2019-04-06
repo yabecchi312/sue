@@ -1,0 +1,54 @@
+.main_admin {
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+
+.admin_user_button {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.admin_user_submit {
+	width: 20%;
+	margin-right: 20px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+.regist_table {
+	margin-bottom: 20px;
+}
+
+.regist_table table {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+table tr td #comment_user_id {
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+
+table tr td  #comment_password {
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+
+table tr td #comment_confirmation {
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+
+table tr td #comment_date {
+	font-size: 12px;
+	color: red;
+	display: none;
+}

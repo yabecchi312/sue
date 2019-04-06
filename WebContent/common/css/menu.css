@@ -1,0 +1,87 @@
+/*menu画面の上部分*/
+.menu {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+/*main全体*/
+.main_wrapper {
+	width: 100%;
+	height: 100%;
+
+}
+
+.main_wrapper a {
+	text-decoration: none;
+	color: black;
+}
+
+.main_wrapper a:hover {
+	 color: #ff0000;
+}
+
+.main_wrapper a button {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+
+/*ボタンを囲むクラス*/
+.employee_button {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.employee_button a {
+	width: 20%;
+
+}
+
+.employee_button button {
+	width: 20%;
+}
+
+/*登録ボタン*/
+.regist_button {
+	margin-right: 20px;
+
+}
+
+/*ログアウトボタン*/
+.logout_button {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.a_logout_button {
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+
+/*一覧表示ボタン*/
+.display_button {
+	width: 33%;
+	cursor: pointer;
+}
+
+.a_display_button {
+	text-align: center;
+	width: 33%;
+	cursor: pointer;
+}
+.a_return_button {
+	width: 25%;
+}
+/*ポインター*/
+.pointer {
+	cursor: pointer;
+
+}
